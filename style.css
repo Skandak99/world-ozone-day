@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Grandstander:ital,wght@0,900;1,300;1,600&display=swap');
+
+body {
+  background-color: #5680e9;
+  font-family: 'Grandstander', cursive;
+  color: white;
+
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+}
+
+header {
+  background-color: #59b9ea;
+  height: 100px;
+
+}
+
+h1 {
+
+  border-radius: 40px;
+  width: max-content;
+  margin: 100px auto;
+  padding: 2% 4%;
+  font-size: 500%;
+  box-shadow: 0px 0px 20px 20px black;
+}
+
+
+
+h3 {
+
+  border-radius: 40px;
+  width: max-content;
+  margin: 50px auto;
+  padding: 2% 4%;
+  font-size: 300%;
+  box-shadow: 0px 0px 10px 10px black;
+
+}
+
+
+
+.card {
+  width: 370px;
+  height: 358px;
+  background: url("https://i.pinimg.com/originals/38/b8/59/38b8598ccfeb03dbc63b52625c2c9c65.gif") no-repeat;
+
+  border: solid black 27px;
+  border-radius: 27px;
+  box-shadow: 0px 0px 20px 20px #5cdb95;
+
+
+}
+
+.kkk {
+  display: flex;
+  align-items: stretch;
+  justify-content: space-around;
+  margin: 100px 100px;
+}
+
+.para>p {
+  font-size: 250%;
+  text-align: center;
+  padding: 40px;
+
+}
+
+span {
+  box-shadow: #5cdb95 0px 0px 20px 20px;
+  padding: 10px 20px;
+  border-radius: 20px;
+  display: flex;
+  width: max-content;
+  align-self: flex-start;
+  margin: 75px auto;
+
+}
+
+.card:hover {
+  background: url("https://res.cloudinary.com/dpf5rgios/image/upload/c_scale,h_360,w_375/v1600366908/Ozone_layer_uxktkq.gif") no-repeat;
+
+}
+
+.dropbtn,
+.dropdown>a {
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  color: #05386b;
+  box-shadow: #05386b 0px 0px 5px 5px;
+
+
+
+  background-color: transparent;
+}
+
+.dropdown:hover {
+  background-color: #5cdb95;
+}
+
+.dropdown a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  color: #05386b;
+  box-shadow: #05386b 0px 0px 5px 5px;
+  margin: 20px;
+
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+
+
+}
+
+.dropdown-content {
+  display: none;
+}
+
+
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
